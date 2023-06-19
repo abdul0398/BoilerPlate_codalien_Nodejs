@@ -21,7 +21,6 @@ const MainSocketController = require('./sockets/MainSocketController');
  * Main App Class. Starting point.
  * */
 new class App {
-
     constructor() {
         this.config = {};
         this.appBaseDir = __dirname;
